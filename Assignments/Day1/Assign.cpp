@@ -5,7 +5,6 @@
 
 using namespace std;
 
-// Item class
 class Item {
 public:
     int id;
@@ -22,14 +21,14 @@ public:
         this->reorderLevel = reorderLevel;
     }
 
-    void display() const { // Marking display as const
+    void display() const { 
         cout << "ID: " << id << ", Name: " << name
              << ", Category: " << category << ", Quantity: " << quantity
              << ", Reorder Level: " << reorderLevel << endl;
     }
 };
 
-// Inventory class
+
 class Inventory {
 public:
     vector<Item> items;
