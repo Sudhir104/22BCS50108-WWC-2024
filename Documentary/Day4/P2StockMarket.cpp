@@ -30,7 +30,7 @@ void groupByStockSymbol(const vector<Trade> &trades) {
         stockData[trade.stockSymbol].second += trade.tradePrice; 
     }
 
-    cout << "Stock Symbol | Total Volume | Average Price\n";
+    cout << "Stock Symbol | Total Volume  | Average Price\n";
     cout << "---------------------------------------------\n";
     for (map<string, pair<int, double> >::iterator it = stockData.begin(); it != stockData.end(); ++it) {
         const string &symbol = it->first;

@@ -29,7 +29,7 @@ bool compareAds(const Ad &a, const Ad &b) {
 
 void displayAds(const vector<Ad> &ads) {
     cout << left << setw(20) << "Advertiser" 
-         << setw(15) << "Bid Amount" 
+         << setw(15) << "Bid Amount " 
          << setw(20) << "Engagement Rate" 
          << setw(20) << "Remaining Budget" << endl;
     cout << string(75, '-') << endl;

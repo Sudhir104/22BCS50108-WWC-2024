@@ -40,7 +40,7 @@ int main() {
     Item catalog[MAX_ITEMS];
     int n;
 
-    cout << "Enter number of catalog items (max " << MAX_ITEMS << "): ";
+    cout << "Enter number of catalog items  (max " << MAX_ITEMS << "): ";
     cin >> n;
 
     if (n <= 0 || n > MAX_ITEMS) {

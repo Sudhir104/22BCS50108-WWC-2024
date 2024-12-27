@@ -31,7 +31,7 @@ int main() {
     Patient patients[MAX_PATIENTS];
     int n;
 
-    cout << "Enter number of patients (max " << MAX_PATIENTS << "): ";
+    cout << "Enter number of patients (max  " << MAX_PATIENTS << "): ";
     cin >> n;
 
     if (n <= 0 || n > MAX_PATIENTS) {

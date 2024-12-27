@@ -62,7 +62,7 @@ int main() {
     sortTransactions(transactions, n);
 
     int topN;
-    cout << "Enter the number of top transactions to display: ";
+    cout << "Enter the number of top  transactions to display: ";
     cin >> topN;
     displayTopTransactions(transactions, n, topN);
 
